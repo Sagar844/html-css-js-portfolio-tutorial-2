@@ -165,6 +165,7 @@ section {
 #profile {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 5rem;
   height: 80vh;
 }
@@ -285,6 +286,9 @@ section {
 
 .about-pic {
   border-radius: 2rem;
+  width:300px;
+  height:300px;
+  object-fit: cover;
 }
 
 .arrow {
@@ -429,4 +433,25 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+.profilesagar{
+  border-radius: 9999px;
+ width: 300px;
+ height: 300px;
+ max-width: max-content;
+ max-width: min-content;
+object-fit: cover;
+
+}
+
+
+.profiledata{
+    border-radius: 9999px;
+ width: 300px;
+ height: 300px;
+ max-width: max-content;
+ max-width: min-content;
+object-fit: cover;
+
 }
